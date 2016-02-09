@@ -1,3 +1,3 @@
 # basic_deploy
 
-deploy.sh <sitecode>
+deploy.sh SITECODE
