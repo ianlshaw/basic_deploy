@@ -13,6 +13,7 @@
 * The USERNAME has the permission to `sudo service httpd restart` on the production server.
 * You have keys setup, from the machine which will run this script, to each server.
 * Your user on STAGING_SERVER has keys to PRODUCTION_SERVER.
+* The SITECODE is both the database name, and web directory (one above public_html).
 
 ##### Variables to populate
 `USERNAME`
