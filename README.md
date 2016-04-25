@@ -16,11 +16,11 @@
 * The SITECODE is both the database name, and web directory (one above public_html).
 
 ##### Variables to populate
-`USERNAME`
-`STAGING_SERVER`
-`PRODUCTION_SERVER`
-`MYSQL_USER`
-`MYSQL_PASSWORD`
+`USERNAME`  
+`STAGING_SERVER`  
+`PRODUCTION_SERVER`  
+`MYSQL_USER`  
+`MYSQL_PASSWORD`  
 
 ### bash skeleton - spec
 deploy.sh SITECODE
