@@ -50,7 +50,7 @@ end
 
 # Import the db on prod
 def import_db
-  result = `ssh -t #{USERNAME}@#{STAGING_SERVER} 'mysql -u#{USERNAME} -p#{MYSQL_PASSWORD} #{SITECODE} < /tmp/#{SITECODE}'`
+  result = `ssh -t #{USERNAME}@#{STAGING_SERVER} 'mysql -u#{USERNAME} -p#{MYSQL_PASSWORD} #{SITECODE} < /tmp/#{SITECODE}.sql'`
   if $?.success?
     puts 'Database imported into prod.'
   else
